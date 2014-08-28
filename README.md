@@ -1,7 +1,7 @@
 vim-rspec-migrate
 ===============
 
-Some helpers for migrating RSpec's expect syntax.
+Some helpers for migrating to RSpec's expect syntax.
 
 ## Usage
 
@@ -16,5 +16,6 @@ Use [pathogen.vim](https://github.com/tpope/vim-pathogen) or [Vundle.vim](https:
 ### Key bindings
 To make it more convenient, add some key bindings to your `.vimrc`:
 
-  " vim-rspec-migrate
+```
   :noremap <leader>ew :ConvertShouldToExpect<CR>
+```
