@@ -1,4 +1,4 @@
-rspec-migrate.vim
+vim-rspec-migrate
 ===============
 
 Some helpers for migrating RSpec's expect syntax.
